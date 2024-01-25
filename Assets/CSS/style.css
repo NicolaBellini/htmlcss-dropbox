@@ -20,9 +20,30 @@ img{
   text-decoration: none;
 }
 
-.mb-middle{
-  margin-bottom: 20px;
+.mb-big{
+  margin-bottom: 3.125rem;
 }
+
+.mb-middle{
+  margin-bottom:1.875rem;
+}
+
+.mb-small{
+  margin-bottom: 0.625rem;
+}
+
+.mt-big{
+  margin-top:  3.125rem;
+}
+
+.mt-middle{
+  margin-top: 1.875rem;
+}
+
+.mt-small{
+  margin-top: 0.625rem;
+}
+
 .flex{
   display: flex;
 }
@@ -40,14 +61,21 @@ img{
   max-width: 1200px;
 }
 .small{
-  max-width: 100px;
+  max-width: 1000px;
 }
 /* containers */
 /* per i button-links */
 .link-box{
   background-color: #0061ff;
-  padding: 6px 10px;
   color: white;
+}
+
+.small-box{
+  padding: 8px 14px;
+}
+
+.big-box{
+  padding: 12px 17px ;
 }
 
  /* fine utilities */
@@ -104,8 +132,7 @@ header{
 /* main */
 
  main{
-   display: flex;
-   justify-content: center;
+
    margin-top: 
    80px;
  }
@@ -131,10 +158,35 @@ header{
  }
 
  .jumbo-sx{
+  /* padding-bottom: 10px; */
   height: 400px;
   width: 30%;
  }
 
+ .fa-arrow-down{
+  font-size: 3rem;
+  margin-top: 98px;
+ }
+
  .jumbo-dx{
   width: 70%;
+ }
+
+ /* fine jumbo */
+
+ /* inizio sezione trova */
+
+ input[type="radio"] {
+  transform: scale(1.5);
+}
+
+label{
+  margin-right: 40px;
+}
+ .trova.container.small{
+  padding-top: 160px;
+ }
+
+ .trova.container.small h2{
+  font-size: 2.5rem;
  }
