@@ -190,3 +190,54 @@ label{
  .trova.container.small h2{
   font-size: 2.5rem;
  }
+
+/* card */
+
+.card{
+  border: 1px solid #ededee;
+  box-shadow: 1px 1px #cfcfcf ;
+}
+
+ .card .card-container{
+  width: 78.6%;
+  margin: 0 auto;
+}
+
+.card .subject{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  font-size: 0.95rem;
+  border-bottom: 1px solid #ededee;
+}
+
+.card h3{
+  margin:40px 2px 18px 0 ;
+  font-size: 1.45rem;
+}
+
+.card strong{
+  margin-top: 4px;
+}
+
+
+.plan p{
+  margin: 26px 0 0 0;
+}
+
+.plan .period{
+  color:#a5a5a5;
+  margin: 19px 0 56px 0;
+}
+
+.plan .sharing{
+  margin-bottom: 53px;
+}
+
+#buynow{
+  margin-top: 38px;
+}
+#buynow a:hover{
+  color: #0061ff;
+}
