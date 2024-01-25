@@ -30,33 +30,31 @@ header{
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: #b4d0e7;
+  background-color: white;
 }
 
 .topbar nav{
   display: flex;
-  width: 33%;
-
 }
 
 .menu{
-
+  padding-left: 5px ;
+  padding-right: 5px;
   display: flex;
   height: 100%;
-  width: 100%;
   align-items: center;
-  justify-content: space-around
+  justify-content: space-around;
 }
 
-.menu.left{
-
+.left{
+  width: 600px;
+  min-width: 500px;
 }
 
-.menu-right{
+.right{
   display: flex;
   height: 100%;
-  width: 33%;
-  justify-content: flex-end;
+  width: 500px;
 }
 
 
@@ -74,5 +72,13 @@ header{
   background-color: #0061ff;
   padding: 6px 10px;
 }
+ /* fine topbar */
 
+ /* inizio jumbo */
 
+ .container-big{
+  max-width: 1200px;
+}
+.container-small{
+  max-width: 100px;
+}
