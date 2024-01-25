@@ -71,7 +71,7 @@ img{
 }
 
 .small-box{
-  padding: 8px 14px;
+  padding: 12px 14px;
 }
 
 .big-box{
@@ -193,14 +193,22 @@ label{
 
 /* card */
 
+.card-trova{
+  display: flex;
+  justify-content: space-between;
+}
+
 .card{
-  border: 1px solid #ededee;
-  box-shadow: 1px 1px #cfcfcf ;
+  border: 2px solid #cdcdcd;
+  /* box-shadow: 1px 1px #cfcfcf ; */
+  height: 970px;
+  width: 300px;
 }
 
  .card .card-container{
   width: 78.6%;
   margin: 0 auto;
+  
 }
 
 .card .subject{
@@ -209,35 +217,142 @@ label{
   align-items: center;
   height: 40px;
   font-size: 0.95rem;
-  border-bottom: 1px solid #ededee;
+  border-bottom: 2px solid #cdcdcd;
 }
 
+
+/* margini della card */
+
+.card-text-top{
+ margin-left: -8px;
+}
+
+ .card-text-bottom{
+  margin-left: -8px;
+ }
+
 .card h3{
-  margin:40px 2px 18px 0 ;
+  margin:25px 2px 13px 0 ;
   font-size: 1.45rem;
 }
 
 .card strong{
+  font-size: 0.8rem;
   margin-top: 4px;
 }
 
 
 .plan p{
-  margin: 26px 0 0 0;
+   margin: 26px 0 0 0; 
 }
 
 .plan .period{
   color:#a5a5a5;
-  margin: 19px 0 56px 0;
+  margin: 10px 0 19px 0;
 }
 
 .plan .sharing{
   margin-bottom: 53px;
 }
 
-#buynow{
-  margin-top: 38px;
+.buynow{
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 45px;
 }
-#buynow a:hover{
+
+
+  
+.buynow a:hover{
   color: #0061ff;
+}
+
+
+/* margini della card */
+
+.card-text-top{
+  margin-bottom: -10px;
+}
+
+.card-text-top>div{
+  display: flex;
+  align-items: flex-start;
+}
+
+.card-text-top i{
+  margin-top: 30px;
+  margin-right: 5px;
+}
+
+.link-card{
+  background-color:  #0061ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+}
+
+.card-text-bottom>div{
+  display: flex;
+  align-items: flex-start;
+}
+
+.card-text-bottom i{
+  margin-top: 30px;
+  margin-right: 5px;
+  font-weight: 900;
+  color:#025bff;
+}
+
+.card .line{
+  width: 50px;
+  height: 1px;
+  background-color: transparent;
+  border-color: transparent;
+  border-bottom: 1px solid #d0d0d3;
+}
+
+.advanced .card-text-bottom div{
+  height: 50px;
+}
+
+.larga{
+  width: 100%;
+  border: 2px solid #cdcdcd;
+}
+
+.larga .subject{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  font-size: 0.95rem;
+  border-bottom: 2px solid #cdcdcd;
+}
+
+.larga .link{
+  color: white;
+  background-color: #0061ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 235px;
+  height: 40px;
+}
+
+.larga h3{
+  font-size: 1.8rem;
+}
+
+.larga .flex{
+  margin-top: 27px;
+ 
+  justify-content: space-between;
+}
+
+.larga-container{
+  width: 934px;
+  margin: 0 auto;
+  margin-bottom: 29px;
 }
