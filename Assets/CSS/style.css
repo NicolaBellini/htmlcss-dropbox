@@ -514,7 +514,7 @@ label{
 /* inizio faq */
 
 .faq {
-  height: 450px;
+  height: 420px;
   margin-top: 155px;
   margin-bottom: 150px;
 }
@@ -523,15 +523,26 @@ label{
   height: 100%;
 }
 
+.faq-title{
+  border-bottom: 1px solid #c8c8c8;
+}
+
+.faq .question{
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #c8c8c8;
+}
+
+.faq .question i{
+  margin-right: 44px;
+}
+
 .faq h2{
   margin-bottom: 65px;
   font-size: 2.5rem;
 }
-.faq .container div{
-  height: 1px;
-  width: 100%;
-  border-bottom:1px solid #999999 ;
-}
+
 
 .faq p{
   line-height:100px; 
@@ -546,7 +557,7 @@ footer{
 }
 
 footer .container{
-  height: 565px;
+  height: 580px;
   padding-top: 100px;
 }
 
@@ -557,12 +568,17 @@ footer .column{
 }
 
 footer .column h3{
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: 40px;
 }
 
 .column p{
   line-height: 35px;
+  cursor: pointer;
+}
+
+.column p:hover{
+  text-decoration: underline;
 }
 
 footer .line{
@@ -571,4 +587,27 @@ footer .line{
   width: 120px;
   background-color: white;
 
+}
+
+footer .select{
+  height: 30px;
+  width: 100px;
+  color: #737373;
+}
+
+.select .flex{
+  margin-top: 50px;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 40px;
+}
+
+.select .flex i{
+  margin-top: 3px;
+  vertical-align: middle;
+}
+
+.select .flex i:hover{
+  cursor: pointer;
+  color: white;
 }
