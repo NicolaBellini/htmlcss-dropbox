@@ -82,6 +82,7 @@ img{
 
 /* header */
 header{
+  z-index: 999;
   width: 100%;
   height: 80px;
   position: fixed;
@@ -231,6 +232,10 @@ label{
   margin-left: -8px;
  }
 
+ .card-text-bottom i{
+  font-weight: bolder;
+ }
+
 .card h3{
   margin:25px 2px 13px 0 ;
   font-size: 1.45rem;
@@ -318,6 +323,7 @@ label{
 }
 
 .larga{
+  margin-top: 50px ;
   width: 100%;
   border: 2px solid #cdcdcd;
 }
@@ -373,15 +379,26 @@ label{
 }
 
 .foto-ragazzi .sinistra{
-  height:100%515px;
-  width: 60%;
+  height:515px;
+  width: 600px;
+  overflow: hidden;
+}
+
+.foto-ragazzi .sinistra img{
+  object-fit: cover;
 }
 
 .foto-ragazzi .destra{
   width: 40%;
   height: 100%;
-  margin-left: 51px;
-  margin-top: 55px;
+  padding-left: 51px;
+  padding-top: 55px;
+  padding-right: 54px;
+}
+
+.foto-ragazzi .destra a{
+  border: 1px solid black;
+  padding: 10px;
 }
 /* fine sezione foto ragazzi */
 
@@ -469,15 +486,74 @@ label{
   flex-shrink: 0;
 }
 
+ /* scroller in mezzo ai sponsor */
 .sponsor .scroller{
   width: 38%;
-  
+  overflow: auto;
 }
 
+/* contenitore quadrato del singolo logo */
 .sponsor .box-logo{
+  justify-content: center;
+  align-items: center;
   aspect-ratio: 1/1;
   width: 50%;
   height: 50%;
+  
+}
+
+/* colori sponsor */
+
+.box-logo.designit{
+  background-color:#d0e9cd ;
+}
+
+.box-logo.asu{
+  background-color:#61082b ;
+}
+
+.box-logo.uf{
+  background-color:#0093ce ;
+}
+
+.box-logo.topps{
+  background-color:#ff1c1c ;
+}
+
+.box-logo.wbr{
+  background-color:#d5001f ;
+}
+
+.box-logo.hearst{
+  background-color:#b4d0e7 ;
+}
+
+.box-logo.lonely{
+  background-color:#0d2481 ;
+}
+
+.box-logo.clear{
+  background-color:#ffd830 ;
+}
+
+/* colori sponsor */
+
+/* contenitore per fare il bordino, piu piccolo rispetto al contenitore del singolo logo */
+.sponsor .little{
+  background-color: #a2d39b; 
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1/1;
+  width: 90%;
+  height: 90%;
+}
+/* piccolo div che sta all interno di tutto */
+.sponsor .logos{
+  width: 57%;
+}
+
+.sponsor .box-logo img{
+  filter: invert(100%) sepia(0%) saturate(7438%) hue-rotate(104deg) brightness(119%) contrast(98%);
 }
 /* fine sponsor */
 /* inizio pre-faq */
