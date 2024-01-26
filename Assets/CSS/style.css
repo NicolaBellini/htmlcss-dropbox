@@ -356,3 +356,66 @@ label{
   margin: 0 auto;
   margin-bottom: 29px;
 }
+
+.destra p{
+  margin-top: 19px;
+  margin-bottom: 53px;
+}
+
+/* section foto ragazzi */
+
+.foto-ragazzi{
+  width: 100%;
+  height: 515px;
+  margin-top: 147px;
+  justify-content: center;
+
+}
+
+.foto-ragazzi .sinistra{
+  height:100%515px;
+  width: 60%;
+}
+
+.foto-ragazzi .destra{
+  width: 40%;
+  height: 100%;
+  margin-left: 51px;
+  margin-top: 55px;
+}
+/* fine sezione foto ragazzi */
+
+/* sezione operazioni */
+.operazioni{
+  margin-top: 140px;
+  height: 1200px;
+}
+
+.operazioni h1{
+  margin-bottom: 60px;
+  display: block;
+  width: 100%;
+}
+
+.operazioni .container{
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.operazioni .operazioni-card{
+  display: flex;
+  flex-wrap: wrap;
+  height: 45%;
+  width: 33%;
+}
+
+.operazioni-card .box-img{
+  height: 50%;
+  width: 100%;
+}
+
+.operazioni-card .box-testo{
+  height: 50%;
+  width: 100%;
+}
