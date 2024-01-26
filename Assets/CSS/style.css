@@ -391,10 +391,11 @@ label{
   height: 1200px;
 }
 
-.operazioni h1{
+.operazioni .container>h2{
   margin-bottom: 60px;
   display: block;
   width: 100%;
+  font-size: 2.4rem;
 }
 
 .operazioni .container{
@@ -418,4 +419,9 @@ label{
 .operazioni-card .box-testo{
   height: 50%;
   width: 100%;
+}
+
+.operazioni-card h2{
+  font-size: 1.6rem;
+  margin-bottom: 45px;
 }
