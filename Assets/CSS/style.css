@@ -504,6 +504,7 @@ label{
   height: 2px;
   width: 100px;
   border-bottom: 2px solid #e1e1e3;
+  margin-bottom: 40px;
 }
 
 .scroller h4{
@@ -621,11 +622,14 @@ label{
   border-bottom: 1px solid #c8c8c8;
 }
 
+.trigger{
+  border-bottom: 1px solid #c8c8c8;
+}
+
 .faq .question{
   height: 100px;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #c8c8c8;
 }
 
 .faq .question i{
@@ -639,10 +643,25 @@ label{
 
 
 .faq p{
-  line-height:100px; 
   font-weight: 700;
 }
 
+.hidden{
+  display:none; 
+}
+
+.hidden p{
+  margin-bottom: 20px;
+  line-height: 20px;
+}
+
+.trigger:hover  .hidden{
+  display: block;
+}
+
+.hidden-answer p{
+  line-height: normal;
+}
 /* fine faq */
 /* inizio footer */
 
