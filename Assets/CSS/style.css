@@ -646,6 +646,11 @@ label{
   font-weight: 700;
 }
 
+
+.trigger:hover  .hidden{
+  display: block;
+}
+
 .hidden{
   display:none; 
 }
@@ -653,15 +658,9 @@ label{
 .hidden p{
   margin-bottom: 20px;
   line-height: 20px;
+  font-weight: 400;
 }
 
-.trigger:hover  .hidden{
-  display: block;
-}
-
-.hidden-answer p{
-  line-height: normal;
-}
 /* fine faq */
 /* inizio footer */
 
