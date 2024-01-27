@@ -177,13 +177,62 @@ header{
 
  /* inizio sezione trova */
 
- input[type="radio"] {
+/* nuovi radio  */
+  
+.radio-group{
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+ .custom-radio {
+  cursor: pointer;
+  padding-left: 30px;
+  position: relative;
+  margin-right: 20px;
+  display: inline-block; 
+}
+.custom-radio::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 2px solid #d0d0d3;
+}
+
+.custom-radio::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 1px; 
+  transform: translateY(-50%);
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  border: 7px solid #0061ff;
+  background-color: white;
+  opacity: 0; 
+}
+
+input[type="radio"]:checked + .custom-radio::after {
+  opacity:1;
+}
+/* fine nuovi radio */
+
+  /* radio vecchi  */
+
+ /* input[type="radio"] {
   transform: scale(1.5);
 }
 
 label{
   margin-right: 40px;
-}
+} */
+/* radio vecchi */
+
  .trova.container.small{
   padding-top: 160px;
  }
@@ -695,7 +744,7 @@ footer .column h3{
 
 footer .line{
   margin-top: 116px;
-  height: 1px;
+  height: 2px;
   width: 120px;
   background-color: white;
 
