@@ -70,6 +70,14 @@ img{
   color: white;
 }
 
+.link-box:hover{
+  background-color: #2376d5;
+}
+
+/* .link-box:hover{
+  background-color: #3775da;
+} */
+
 .small-box{
   padding: 12px 14px;
 }
@@ -129,11 +137,11 @@ header{
   align-items: center;
   display: flex;
   height: 100%;
+  transition: all 0.1s ease;
 }
 
 .topbar .menu li:hover{
- 
-  border-bottom: 3px solid #0061ff;
+ border-bottom: 3px solid #0061ff;
 }
 
 
@@ -328,7 +336,7 @@ label{
 
   
 .buynow a:hover{
-  color: #0061ff;
+  color: #2376d5;
 }
 
 
@@ -349,12 +357,17 @@ label{
 }
 
 .link-card{
+  color: white;
   background-color:  #0061ff;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 40px;
+}
+
+.link-card:hover{
+  background-color: #2376d5;
 }
 
 .card-text-bottom>div{
@@ -404,6 +417,10 @@ label{
   align-items: center;
   width: 235px;
   height: 40px;
+}
+
+.larga .link:hover{
+  background-color: #2376d5;
 }
 
 .larga h3{
@@ -458,6 +475,10 @@ label{
 .foto-ragazzi .destra a{
   border: 1px solid black;
   padding: 10px;
+}
+
+.foto-ragazzi .destra a:hover{
+  background-color: rgb(235, 235, 235);
 }
 /* fine sezione foto ragazzi */
 
@@ -663,6 +684,11 @@ label{
   height: 42px;
   padding: 0 48px;
   text-align: center;
+  border: 1px solid black;
+}
+
+.pre-faq .container .fake-button:hover{
+  background-color: rgb(235, 235, 235);
 }
 
 /* inizio faq */
@@ -794,3 +820,4 @@ footer .select{
   cursor: pointer;
   color: white;
 }
+
