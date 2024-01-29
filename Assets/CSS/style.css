@@ -101,6 +101,8 @@ header{
   display: flex;
 }
 
+
+
 .menu{
   padding-left: 5px ;
   padding-right: 5px;
@@ -124,7 +126,14 @@ header{
 
 .topbar .menu li{
   list-style: none;
+  align-items: center;
   display: flex;
+  height: 100%;
+}
+
+.topbar .menu li:hover{
+ 
+  border-bottom: 3px solid #0061ff;
 }
 
 
@@ -141,6 +150,7 @@ header{
 
  /* inizio jumbo */
  .jumbo{
+  /* -webkit-backdrop-filter: url(../video/video-title.mp4); */
   width: 100vw;
   height:740px ;
   background-color:#b4d0e7;
