@@ -144,6 +144,76 @@ header{
  border-bottom: 3px solid #0061ff;
 }
 
+.drop{
+  position: relative;
+}
+
+.dropdown-content{
+  display: none;
+  min-width: 150px;
+  /* height: auto; */
+}
+
+.dropdown-content .flex,
+.dropdown-content-2 .flex{
+  flex-direction: column;
+}
+
+.dropdown-content a{}
+
+.dropdown-content a:hover{
+  background-color: rgb(109, 132, 139);
+  
+}
+
+.dropdown-content-2{
+  display: none;
+  min-width: 150px;
+
+}
+
+/* .dropdown-content-2{
+  display: none;
+  width: 150px;
+} */
+
+.drop:hover .dropdown-content,
+.drop:hover .dropdown-content-2{
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 50px;
+  display: block;
+  position: absolute;
+  top: 103%;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-top: none;
+  opacity: 1;
+  animation: apparizione;
+  animation-duration: 0.2s;
+}
+
+/* keyframe per menu  */
+@keyframes apparizione{
+  0%{
+    opacity: 0;
+    line-height: 10px;
+  }
+  25%{
+    line-height: 17px;
+  }
+  50%{
+    opacity: 0.5;
+    line-height: 25px;
+  }
+  75%{
+    line-height: 38px;
+  }
+  100%{
+    opacity: 100%;
+    line-height: 50px;
+  }
+}
 
  /* fine topbar e header */
 
